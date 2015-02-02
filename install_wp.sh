@@ -7,6 +7,8 @@
 # - uses wp-cli to download, create config, and install WP
 # - writes user name and password to text file
 
+# If "-d" is passed the sites are destroyed and user deleted instead.
+
 HOME_PATH="/var/www/html"
 SITE_URL="http://example.com"
 
