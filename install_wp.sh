@@ -8,6 +8,9 @@
 # - writes user name and password to text file
 
 # If "-d" is passed the sites are destroyed and user deleted instead.
+# Script uses root and root for user name and password to MySQL for DB and DB user creation.
+# Hopefully that is not what your MySQL server is using.
+
 
 HOME_PATH="/var/www/html"
 SITE_URL="http://example.com"
